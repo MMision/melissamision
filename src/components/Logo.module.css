@@ -1,0 +1,8 @@
+.logo {
+	height: 10rem;
+	display: inline-flex;
+	/* display: block; */
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}

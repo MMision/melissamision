@@ -1,0 +1,78 @@
+@media only screen and (min-width: 1px) {
+	.nav {
+		display: flex;
+		flex: 100%;
+		width: 100vw !important;
+		align-items: center;
+		justify-content: space-between;
+		background-image: linear-gradient(
+			180deg,
+			rgb(0 34 53 / 82%),
+			rgb(255 255 255 / 0%)
+		);
+		padding: 1rem 1rem;
+		height: 8rem;
+		position: relative;
+		z-index: 3;
+		object-fit: contain;
+	}
+	nav img {
+		object-fit: contain;
+		height: 110px !important;
+		width: 110px !important;
+	}
+	.flexing {
+		flex: 100%;
+	}
+	.nav ul {
+		list-style: none;
+		display: inline-flex;
+		align-items: center;
+		gap: 4rem;
+		color: white;
+	}
+	/* .nav a:visited {
+		color: #4ad9cf;
+	} */
+	/* .nav a:link, */
+	/* .nav a:visited, */
+	.PageNav_nav > ul li a:link {
+		text-decoration: none;
+		/* text-transform: uppercase; */
+		font-weight: 600;
+		height: 5rem;
+		border-bottom: 3px solid transparent;
+		transition-property: border-bottom, left;
+
+		transition-duration: 0.5s, 1s;
+
+	}
+	.nav a:link {
+		font-size: 1.5rem;
+		letter-spacing: 0.1rem;
+
+	}
+	.nav li:hover {
+		color: white;
+		border-bottom: 3px solid #4ad9cf;
+	}
+	/* CSS Modules feature */
+	.nav a:global(.active) {
+		color: #4ad9cf;
+	}
+
+	a.ctaLink:link,
+	a.ctaLink:visited {
+		background-color: var(--color-brand--2);
+		color: var(--color-dark--0);
+		padding: 0.8rem 2rem;
+		border-radius: 7px;
+	}
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 800px) {
+	.nav {
+		padding: 1rem 10rem;
+	}
+}
