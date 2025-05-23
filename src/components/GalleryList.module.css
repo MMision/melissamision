@@ -151,7 +151,7 @@ object-position: center;
 	object-fit: cover;
 	display: inline-flex;
 	padding: 0rem 2rem 0rem 0rem !important;
-	margin: 0;
+	margin: 0 !important;
 }
 .modalh2 {
 	position: relative;
