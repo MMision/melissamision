@@ -14,11 +14,7 @@ export default function Development() {
 							pieces
 						</h1>
 						<p>
-							Since I was little, I&apos;ve loved illustrating and painting. In
-							particular I love to create landscapes, character designs and
-							environments. When I should have been taking notes in class
-							growing up, I was busy filling the paper with sketches of worlds
-							where my creativity could run free.
+							I enjoy working on projects that engage and immerse audiences to interact with a webpage. I&apos;m fluent in javaScript (vanilla and React), PHP, CSS/SASS and HTML structure. I have experience developing in Wordpress, Shopify and Contently.
 						</p>
 					</div>
 					<GalleryList />

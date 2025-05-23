@@ -10,10 +10,9 @@ export default function Portfolio() {
 				<section>
 					<div className={styles.workAbout}>
 						<h1>
-							You&apos;re
+							You&apos;re welcome <br></br>to
 							<span className={styles.workPageh1Color}>
-								{" "}
-								welcome to wander.
+								{" "}wander.
 							</span>
 						</h1>
 						<p>

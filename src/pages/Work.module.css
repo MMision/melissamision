@@ -294,14 +294,19 @@ h2 {
 		margin-left: 2rem;
         padding: 0.6em 2.5em;
 		background:#4ad9cf;
-		color: white !important;
 		border-radius: 5rem;
-		        font-family: "Noto Sans JP", sans-serif;
+		font-family: "Noto Sans JP", sans-serif;
 		margin-top: 11rem;
 		font-weight: 700;
 		z-index: 9;
 		width: fit-content;
 		height: auto !important;
+	}
+	.contactPage h2 {
+		color: white !important;
+	}
+	.workPage h2 {
+		color: #0c0c0c !important;
 	}
 	/* .workPageGrid h2 {
 	margin-top: 19rem;
@@ -380,6 +385,9 @@ h2 {
 	.workPageGrid p {
         padding: 1rem 18rem 0rem 11rem;
 		}
+		.workPageGrid p {
+        padding: 1rem 7rem 0rem 2rem;
+			}
 	.workPage h1,
 	.contactPage h1,
 	.workPageGrid h1 {
@@ -469,5 +477,14 @@ h2 {
 		padding: 0.7rem 0rem 0rem 11rem;
 	}
 	.workPageGrid p {
-        padding: 1rem 18rem 0rem 11rem;    }
+        padding: 0rem
+ 0rem 0rem 11rem;
+         margin: 0rem 14rem 0rem 0rem;
+
+    	}
+}
+@media only screen and (min-width: 1000px) {
+	    .workPageGrid p {
+        margin: 0rem 34rem 0rem 0rem;
+    }
 }

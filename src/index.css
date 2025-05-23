@@ -65,7 +65,7 @@ body {
 		width: 100%;
 		height: 100%;
 		font-size: 1rem;
-		color: white !important;
+        color: #0c0c0c !important;
 		border-radius: 5rem;
 		margin-top: 3rem;
 		font-weight: 700;
@@ -128,9 +128,10 @@ body {
 
 	.highlightWord {
 		color: #4ad9cf !important;
-  font-family: "Just Another Hand", cursive;
-          font-size: 3.5rem;
+  		font-family: "Just Another Hand", cursive;
+        font-size: 3.5rem;
 		line-height: 0.6;
+		font-weight: 900;
 	}
 	.homePageHeaderh1 {
 		font-weight: 400;
