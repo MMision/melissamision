@@ -135,6 +135,12 @@ if (window.location.pathname === "/pixelArt") {
 	];
 } else if (window.location.pathname === "/fineArts") {
 	GalleryData = [
+						{
+			name: "Air in my atmosphere",
+			description:
+				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+			imagePath: "/Air_web.JPG",
+		},
 				{
 			name: "Attraction",
 			description:
