@@ -41,8 +41,8 @@ function Gallery({ galleryObj }) {
 		console.log(testAgain);
 		let finalExam = returnScroll + testAgain;
 		console.log(finalExam);
-		test.scrollIntoView({ top: returnScroll, behavior: 'smooth', block: 'center'});
-    // window.scrollTo({ top: testAgain, behavior: "smooth" });
+		console.log(myRef);
+		myRef.current.scrollIntoView({ behavior: 'smooth', block: 'center',})    // window.scrollTo({ top: testAgain, behavior: "smooth" });
 
 // test.scrollIntoView({ behavior: 'smooth', block: 'center' });
 // its currently centering div placement before it clicks open. need to find a way to center it AFTER modal opens
@@ -52,6 +52,8 @@ function Gallery({ galleryObj }) {
 		<div id="box"
 			onClick={() => setIsOpenModal(!isOpenModal)}
 			className={`${isOpenModal ? styles["overlay"] : styles["overlayNone"]}`}
+			ref={myRef}
+
 		>
 			<div
 				className={`${
@@ -59,7 +61,6 @@ function Gallery({ galleryObj }) {
 						? styles["modalBackground"]
 						: styles["modalBackgroundNone"]
 				}`}
-				ref={myRef}
 				onClick={executeScroll}
 
 

@@ -138,55 +138,55 @@ if (window.location.pathname === "/pixelArt") {
 						{
 			name: "Air in my atmosphere",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch of area in New Berlin done with Uniball Signo UM-151 Gel Pen 0.38mm Bordeaux Black pen on paper",
 			imagePath: "/Air_web.JPG",
 		},
 				{
 			name: "Attraction",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch of area in Pewaukee done with Uniball Signo UM-151 Gel Pen 0.38mm Bordeaux Black pen on paper",
 			imagePath: "/attraction.JPG",
 		},
 				{
 			name: "Endless Times",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/endless-times.JPG",
 		},
 				{
 			name: "Natures Warmth",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/NaturesWarmth.JPG",
 		},
 				{
 			name: "Steps",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/steps.JPG",
 		},
 				{
 			name: "Melancholy Eyes",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/MelancholyEyes.JPG",
 		},
 				{
 			name: "Alone",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/Alone.JPG",
 		},
 				{
 			name: "Moment",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/Moment.JPG",
 		},
 				{
 			name: "Ordinary",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/Ordinary.JPG",
 		},
 		{
@@ -198,7 +198,7 @@ if (window.location.pathname === "/pixelArt") {
 				{
 			name: "Visual Ghostwriting",
 			description:
-				"Sketch of North Idlewild Ave done with Uniball signo 207 0.77mm blue gel pen on paper",
+				"Sketch done with Uniball signo 207 0.77mm blue gel pen on paper",
 			imagePath: "/VisualGhostwriting.JPG",
 		},
 		{
