@@ -5,7 +5,7 @@ import GalleryList from "../components/GalleryList";
 //under return
 /* <GalleryList /> */
 
-export default function PixelArt() {
+export default function DigitalArt() {
 	return (
 		<main className={styles.workPageGrid}>
 			<PageNav />

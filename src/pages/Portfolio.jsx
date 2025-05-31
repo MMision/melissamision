@@ -16,10 +16,8 @@ export default function Portfolio() {
 							</span>
 						</h1>
 						<p>
-							There are three paths to explore. Development is largely websites
-							and applications. Pixel art has illustrated pixel
-							drawings/concepts and animations. Fine arts has an assortment of
-							paintings, sketches and illustrations.<br></br>
+							Welcome to my portfolio site; thank you for visiting. There are three paths to explore. Development, Digital Illustration and Fine Arts. Development is largely websites and components I have developed.
+Digital illustration has digital drawings/concepts and animations. Fine arts has an assortment of traditionally created paintings, sketches and illustrations.<br></br>
 							<br></br>
 							Relax, take your time among what path(s) you choose.
 						</p>
@@ -30,9 +28,9 @@ export default function Portfolio() {
 								<h2>Development</h2>
 							</div>
 						</Link>
-						<Link reloadDocument to={"/pixelArt"}>
+						<Link reloadDocument to={"/digitalIllustration"}>
 							<div className={styles.pixelArt}>
-								<h2>Illustration</h2>
+								<h2>Digital Illustration</h2>
 							</div>
 						</Link>
 						<Link reloadDocument to={"/fineArts"}>

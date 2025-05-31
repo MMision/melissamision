@@ -66,7 +66,7 @@ import CurrentPage from "../../src/components/CurrentPage";
 // ];
 <CurrentPage />;
 let GalleryData = null;
-if (window.location.pathname === "/pixelArt") {
+if (window.location.pathname === "/digitalIllustration") {
 	GalleryData = [
 		{
 			name: "Spaceship Crew",
