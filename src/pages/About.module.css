@@ -94,9 +94,9 @@ display: flex
 	}
 	.aboutPageh1Color {
 		color: #4ad9cf !important;
-  font-family: "Passions Conflict", cursive;
-		font-size: 5rem;
-	}
+  		font-family: "Passions Conflict", cursive;
+        font-size: 3.5rem;
+		}
 	.aboutContainer h2 {
 		display: inline-flex;
 		height: auto;
