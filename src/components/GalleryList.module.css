@@ -153,7 +153,7 @@ object-position: center;
 	padding: 0rem 2rem 0rem 0rem !important;
 	margin: 0 !important;
 }
-.modalh2 {
+.modalh2, .modalh3, .modalBullet, .modalBullet li {
 	position: relative;
 	height: fit-content;
 	width: fit-content;
@@ -161,11 +161,39 @@ object-position: center;
 	display: inline-flex;
 	font-size: 1.7rem;
 	color: #151515;
+    flex-wrap: wrap;
+    flex: 100%;
+    flex-direction: row;
+    width: 100%;
+}
+.modalh3 {
+	font-size: 1.25rem;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	color: #151515 !important;
+	font-family: "DM Serif Display", serif !important;
+}
+.modalBullet {
+		padding-left: 5%;
+}
+.modalBullet, .modalBullet li {
+	font-size: 1.25rem;
+    font-family: "Noto Sans JP", sans-serif;
+	font-weight: 300;
+}
+.modalBullet li {
+		display: list-item;
+		font-size: 1.05rem;
 }
 .modalText {
         width: 100%;
         padding: 4rem 0rem 5rem 2rem;
         flex: 60%;
+		display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex: 100%;
+        position: relative;
 }
 .none {
 	display: none !important;
@@ -200,7 +228,7 @@ object-position: center;
 	} */
 	.modalText {
         width: 100%;
-        padding: 2rem 0rem 5rem 2rem;
+        padding: 2rem 0rem 3rem 2rem;
         flex: 100%;
     }
 	.modalh2 {

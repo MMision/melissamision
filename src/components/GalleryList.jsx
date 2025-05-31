@@ -22,6 +22,9 @@ function Gallery({ galleryObj }) {
 		galleryObj: PropTypes.shape({
 			name: PropTypes.string.isRequired,
 			description: PropTypes.string.isRequired,
+			bulletName: PropTypes.string.isRequired,
+			bulletPoints: PropTypes.string.isRequired,
+			bulletPoints2: PropTypes.string.isRequired,
 			imagePath: PropTypes.bool.isRequired,
 		}),
 	};
@@ -81,6 +84,17 @@ function Gallery({ galleryObj }) {
 					<p className={`${isOpenModal ? styles["modalp"] : styles["none"]}`}>
 						{galleryObj.description}
 					</p>
+					<h3 className={`${isOpenModal ? styles["modalh3"] : styles["none"]}`}>
+						{galleryObj.bulletName}
+					</h3>					
+					<ul className={`${isOpenModal ? styles["modalBullet"] : styles["none"]}`}>
+						<li>
+						{galleryObj.bulletPoints}
+						</li>
+						<li>
+						{galleryObj.bulletPoints2}
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

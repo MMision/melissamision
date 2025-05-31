@@ -189,6 +189,12 @@
 	.contactPage h1 {
 		width: auto;
 	}
+	.workPageGrid p {
+		flex: 100%;
+        flex-direction: row;
+        position: relative;
+
+	}
 	.contactPage p {
 		width: fit-content;
 	}
