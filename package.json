@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "postcss": ">=8.4.31",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -40,6 +41,7 @@
   },
   "devDependencies": {
     "react-scripts": "^5.0.1",
+    "postcss": ">=8.4.31",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-refresh": "^0.4.20"
   }
